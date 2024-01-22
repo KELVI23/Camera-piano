@@ -6,7 +6,7 @@
 </p>
 
 <a href="https://imgur.com/a/P9QAPZP">
-  <img src="https://imgur.com/a/P9QAPZP.mp4" alt="Click to play video">
+  <img src="https://imgur.com/A16jz0W.mp4" alt="Click to play video">
 </a>
 
 
