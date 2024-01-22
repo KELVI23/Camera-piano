@@ -1,16 +1,14 @@
 class Grid {
   /////////////////////////////////
-  constructor(_w, _h, monoSynth) { // I wrote this code
+  constructor(_w, _h, monoSynth) {
     this.gridWidth = _w;
     this.gridHeight = _h;
     this.noteSize = 40;
     this.notePos = [];
     this.noteState = [];
 
-    // I wrote this code
     this.keys = ['A', 'G', 'F', 'D', 'C']; //musical keys
     this.monoSynth = monoSynth;
-    //end of code I wrote
 
     // Initialize grid structure and state
     for (var x = 0; x < _w; x += this.noteSize) {
@@ -33,8 +31,6 @@ class Grid {
   /////////////////////////////////
   drawActiveNotes(img) {
     // draw active notes
-    
-    // I wrote this code
     noFill();
     stroke(255);
 
@@ -42,7 +38,6 @@ class Grid {
     // variables to track the currently playing note
     let playingNote = false;
     let currentNote = "";
-    //end of code I wrote
 
     for (var i = 0; i < this.notePos.length; i++) {
       for (var j = 0; j < this.notePos[i].length; j++) {
@@ -50,8 +45,6 @@ class Grid {
         var y = this.notePos[i][j].y;
         if (this.noteState[i][j] > 0) {
           var s = this.noteState[i][j];
-
-          // I wrote this code
 
           // Map the noteState to an angle for arc
           var angle = map(s, 0, 1, PI, -PI);    
@@ -82,14 +75,11 @@ class Grid {
           // display currentNote 
           playingNote = true;
           currentNote = note;
-          //end of code I wrote
         }
         this.noteState[i][j] -= 0.05;
         this.noteState[i][j] = constrain(this.noteState[i][j], 0, 1);
       }
     }
-
-    // I wrote this code
 
     // Display current  note
     if (playingNote) {
@@ -103,7 +93,6 @@ class Grid {
       text("Note: " + currentNote, 60, 45);
     }
   }
-  //end of code I wrote
 
   /////////////////////////////////
   findActiveNotes(img) {
@@ -124,8 +113,6 @@ class Grid {
   }
 }
 
-
-// I wrote this code
 function playSynth(note, velocity, time, dur) {
   const synth = new p5.Oscillator();
   synth.setType('cos'); 
@@ -135,7 +122,6 @@ function playSynth(note, velocity, time, dur) {
   synth.stop(time + dur);
 }
 
-//end of code I wrote
 
 
 
