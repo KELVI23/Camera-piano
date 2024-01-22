@@ -31,9 +31,6 @@ Start playing the virtual piano!
 <a href="https://imgur.com/A16jz0W">
   <p>Click to play demo video</p> 
 </a>
-<p align="center">
-  <img src="https://imgur.com/Qc5t7nI.png" alt="Cover photo" />
-</p>
 
 <p align="center">
   <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" />
