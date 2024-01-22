@@ -2,7 +2,7 @@
 The Camera Piano project is an interactive musical application that allows users to play virtual piano keys using their webcam. This project leverages computer vision techniques to detect hand movements, translating them into piano key presses. Users can enjoy a virtual piano-playing experience without the need for physical hardware.
 
 ## Features
-- *Camera Interaction*: Utilizes the webcam to detect hand gestures and movements.
+- *Camera Interaction: Utilizes the webcam to detect hand gestures and movements.
 - *Virtual Piano Keys*: Maps hand movements to corresponding piano keys on the screen.
 - *Real-time Feedback*: Provides real-time visual and auditory feedback during piano play.
 
