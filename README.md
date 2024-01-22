@@ -12,14 +12,10 @@ The Camera Piano project is an interactive musical application that allows users
 - Supported web browser (Chrome, Firefox, etc.).
 
 ## Installation
-Clone the repository:
-
-git clone https://github.com/KELVI23/Camera-piano.git
-Open index.html in your preferred web browser.
-
-Grant necessary permissions for webcam access.
-
-Start playing the virtual piano!
+- Clone the repository: git clone https://github.com/KELVI23/Camera-piano.git
+- Open index.html in your preferred web browser.
+- Grant necessary permissions for webcam access.
+- Start playing the virtual piano!
 
 ## Usage
 - Open the application in your web browser.
