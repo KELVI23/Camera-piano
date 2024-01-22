@@ -1,32 +1,29 @@
 // ********************************
-// BACKGROUND SUBTRACTION EXAMPLE *
+// BACKGROUND SUBTRACTION*
 // ********************************
-// I wrote this code
 let noteIcon;
 
 function preload() {
   noteIcon = loadImage('assets/note-icon.png'); 
 }
-// end of code I wrote
+
 var video;
-var prevImg; // I wrote this code
+var prevImg;
 var diffImg;
 var currImg;
-let monoSynth; // I wrote this code
+let monoSynth;
 
 function setup() {
-  createCanvas(640 * 2, 500); // I wrote this code
+  createCanvas(640 * 2, 500);
   pixelDensity(1);
   video = createCapture(VIDEO);
   video.hide();
 
-  // I wrote this code
   // Set up audio
   getAudioContext().suspend();
   monoSynth = new p5.MonoSynth();
 
   grid = new Grid(640, 480, monoSynth);
-  // end of code I wrote
 }
 
 function draw() {
@@ -36,7 +33,6 @@ function draw() {
   currImg = createImage(video.width, video.height);
   currImg.copy(video, 0, 0, video.width, video.height, 0, 0, video.width, video.height);
 
-  // I wrote this code
   // Scale down
   currImg.resize(video.width / 4, video.height / 4);
   // Blur
@@ -47,7 +43,6 @@ function draw() {
   diffImg.resize(video.width / 4, video.height / 4);
   
   const threshold = 50;
-//end of code I wrote
 
   if (typeof prevImg !== 'undefined') {
     prevImg.loadPixels();
@@ -85,7 +80,6 @@ function draw() {
   noFill();
   stroke(255);
 
- // I wrote this code  
   textSize(16)
  
   text("Click for sound", 30, 495);
@@ -99,9 +93,6 @@ function draw() {
 function mousePressed() {
   userStartAudio();
 }
-
-// end of code I wrote
-
 
 // faster method for calculating color similarity which does not calculate root.
 // Only needed if dist() runs slow
