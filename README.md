@@ -1,7 +1,12 @@
 # Camera piano project
 
-[![Click to play video](https://imgur.com/a/20eJa9d)](https://imgur.com/a/20eJa9d)
 
+<p align="center">
+  <img src="https://imgur.com/a/20eJa9d.png" alt="Cover photo" />
+</p>
 
-[![Alt text](https://imgur.com/a/P9QAPZP)](https://imgur.com/a/P9QAPZP)
+<a href="https://imgur.com/a/P9QAPZP">
+  <img src="https://imgur.com/a/P9QAPZP" alt="Click to play video">
+</a>
+
 
