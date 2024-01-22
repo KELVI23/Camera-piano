@@ -36,7 +36,7 @@ Start playing the virtual piano!
 </p>
 
 <p align="center">
-  <img src="https://imgur.com/nJA2fqP.png" alt="Cover photo" />
+  <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" />
 </p>
 
 
