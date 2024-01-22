@@ -35,6 +35,11 @@ Start playing the virtual piano!
   <img src="https://imgur.com/Qc5t7nI.png" alt="Cover photo" />
 </p>
 
+<p align="center">
+  <img src="https://imgur.com/nJA2fqP.png" alt="Cover photo" />
+</p>
+
+
 ## Contributing
 If you would like to contribute to this project, follow these steps:
 
