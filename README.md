@@ -6,6 +6,15 @@ The Camera Piano project is an interactive musical application that allows users
 - _Virtual Piano Keys_: Maps hand movements to corresponding piano keys on the screen.
 - _Real-time Feedback_: Provides real-time visual and auditory feedback during piano play.
 
+## Demo
+<a href="https://imgur.com/A16jz0W">
+  <p>Click to play demo video</p> 
+</a>
+
+<p align="center">
+  <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" />
+</p>
+
 ## Getting Started
 ### Prerequisites
 - Ensure you have a webcam connected and properly configured.
@@ -22,16 +31,6 @@ The Camera Piano project is an interactive musical application that allows users
 - Position yourself in front of the webcam.
 - Use your hands to interact with the virtual piano keys.
 - Enjoy the musical experience!
-
-## Demo
-<a href="https://imgur.com/A16jz0W">
-  <p>Click to play demo video</p> 
-</a>
-
-<p align="center">
-  <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" />
-</p>
-
 
 ## Contributing
 If you would like to contribute to this project, follow these steps:
