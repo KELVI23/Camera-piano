@@ -12,11 +12,7 @@ The Camera Piano project is an interactive musical application that allows users
 </a>
 
 <p align="center">
-  <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" />
-</p>
-
-<p align="center">
-  <img src="https://imgur.com/xZCmVpq.png" alt="Cover photo" />
+  <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" width="50%"/>
 </p>
 
 
