@@ -15,6 +15,11 @@ The Camera Piano project is an interactive musical application that allows users
   <img src="https://imgur.com/is4Icxc.png" alt="Cover photo" />
 </p>
 
+<p align="center">
+  <img src="https://imgur.com/xZCmVpq.png" alt="Cover photo" />
+</p>
+
+
 ## Getting Started
 ### Prerequisites
 - Ensure you have a webcam connected and properly configured.
